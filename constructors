@@ -1,0 +1,133 @@
+
+
+
+ public WhiteBoardMarker ( int y, String t ) {
+
+this.inkLeft=y;
+this.color=t;
+}
+
+
+
+
+
+
+Dinosaur(String s, boolean c, int ye){
+this.species = s;
+this.carniverous = c;
+this.yearExtinct = ye;
+}
+
+
+
+
+
+
+class Hell {
+
+       Hell(int hotness) {
+
+
+
+      }
+
+}
+
+
+
+
+
+
+public class Bacon {
+
+      String style = "streaky";
+
+      Bacon (String style) {
+            this.style = style;
+      }
+
+}
+
+
+
+
+
+
+public class Unicorn {
+
+int horns;
+   Unicorn() {
+            this.horns = 1;
+      }
+
+}
+
+
+
+
+
+
+class Narwhal {
+
+  Narwhal(){}
+
+}
+
+
+
+
+
+
+class Candy {
+
+       private String maker;	//e.g. Hershey’s, Willy Wonka
+       private boolean isChocolatey;
+       private double price;
+       
+       
+       
+       Candy(String m, boolean ic, double p){     
+this.maker=m;
+this.isChocolatey=ic;
+this.price=p;
+
+       
+       }
+     Candy.  
+       
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

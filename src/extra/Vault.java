@@ -12,7 +12,7 @@ package extra;
 //5. Add a constructor for Vault so that you can easily set the secret code. 
 
 public class Vault {
-int code=22222222;
+int code=111102;
 
 boolean tryCode(int num) {
 	if(num==code) {
@@ -24,10 +24,7 @@ boolean tryCode(int num) {
 	
 	
 }
-public static void main(String[] args) {
-	Vault v=new Vault();
-	System.out.println( v.tryCode(22222222));
-}
+
 
 
 }

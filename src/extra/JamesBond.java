@@ -8,7 +8,7 @@ package extra;
 public class JamesBond {
 int findCode(Vault vic){
 	for (int i = 0; i < 1000000; i++) {
-		System.out.println(i);
+		//System.out.println(i);
 	boolean b =	vic.tryCode(i);
 	if (b == true) {
 		return i;
@@ -18,7 +18,10 @@ int findCode(Vault vic){
 	return -1;
 }
 public static void main(String[] args) {
-	
+	Vault v=new Vault();
+	JamesBond blofeld =new JamesBond();
+	int s = blofeld.findCode(v);
+System.out.println(s);
 }
 
 
